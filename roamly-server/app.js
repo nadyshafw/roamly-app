@@ -4,7 +4,6 @@ if(process.env.NODE_ENV !== "production"){
 const express = require('express');
 const router = require('./routers');
 const app = express()
-const port = process.env.PORT || 3000
 const cors = require('cors');
 
 app.use(cors());
@@ -14,6 +13,4 @@ app.use(express.urlencoded({ extended: true }))
 
 app.use(router)
 
-app.listen(port, () => {
-  console.log(`http://localhost:${port}`)
-})
+module.exports = app
