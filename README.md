@@ -25,7 +25,7 @@ DEPLOY USER URL = https://YOUR-DOMAIN.com
 ```
 
 ```text
-DEPLOY CLIENT URL = https://YOUR-DOMAIN.com
+DEPLOY CLIENT URL = https://roamly-app-brown.vercel.app
 ```
 
 ```text
